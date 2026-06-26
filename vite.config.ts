@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: './',
+    base: '/neabpd-israel-wireframes/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
