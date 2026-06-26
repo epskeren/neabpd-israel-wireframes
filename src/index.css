@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&family=Rubik:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Assistant", "Rubik", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-blue: #1e3c6e;
+  --color-brand-red: #d42321;
+  
+  --color-calm-50: #f0f7f7;
+  --color-calm-100: #e0f0f0;
+  --color-calm-200: #bde0e1;
+  --color-calm-300: #8ec9ca;
+  --color-calm-400: #59aab0;
+  --color-calm-500: #3e8e94;
+  --color-calm-600: #35757b;
+  --color-calm-700: #2f6166;
+  --color-calm-800: #2b5155;
+  --color-calm-900: #274548;
+}
+
+/* Base custom styles for wireframe simulation */
+body {
+  font-family: var(--font-sans);
+  background-color: #f8fafc;
+  color: #1e293b;
+  direction: rtl;
+}
+
+/* Custom scrollbar for clean dashboard look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Animation helpers */
+.wireframe-pattern {
+  background-image: radial-gradient(#e2e8f0 1.5px, transparent 1.5px);
+  background-size: 16px 16px;
+}

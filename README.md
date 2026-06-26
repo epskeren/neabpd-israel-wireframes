@@ -1,11 +1,76 @@
-<div align="center">
+# NEABPD Israel Wireframes 🌐📱
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+**כלי אינטראקטיבי לחקירה והצגה של ה-Wireframes והתכנון המבני של אתר NEABPD Israel**
 
-  <h1>Built with AI Studio</h2>
+מערכת אינטראקטיבית ומתקדמת שנבנתה ב-**React 19**, **Vite**, ו-**Tailwind CSS**, במטרה לאפשר למעצבים, מפתחים, וסוקרים קליניים לחקור, לתקף ולסקור את המבנה והתוכן המוצע לאתר עמותת **NEABPD Israel** (העמותה הישראלית לבני משפחה של מתמודדים עם אי-ויסות רגשי חמור ו-BPD).
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+---
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## ✨ תכונות עיקריות (Key Features)
 
-</div>
+* **🎨 צבעוניות מותג רשמית (Brand Aesthetics):** מותאם באופן מלא לצבעי הלוגו הרשמיים של העמותה:
+  * כחול מותג: `#1e3c6e` (עומק, סמכות וביטחון)
+  * אדום מותג: `#d42321` (רגישות, חום והנעה לפעולה)
+  * לבן: `#ffffff` (ניקיון ונשימה)
+* **📱 הדמיית תצוגות (Dual-Viewport Simulator):** מעבר בלחיצת כפתור בין תצוגת מובייל (Mobile Mockup) לתצוגת דסקטופ (Desktop) רספונסיבית מלאה.
+* **✍️ מערכת הערות ומשוב מובנית (Review & Feedback System):** כתיבת הערות הממוקדות במקטע ספציפי (Contextual Annotation) כולל ייצוא ההערות לקובץ טקסט (`.txt`) להעברה מהירה למפתחים.
+* **🔎 סקירת עמודי מפתח (Comprehensive Pages):**
+  * דף הבית (הבנה מהירה ב-10 שניות, מקטעי מפתח)
+  * האם זה מתאים? (שאלון קבלת החלטות מבוסס תרחישים)
+  * מידע על BPD (מבנה אינפורמטיבי רגיש ואמפתי)
+  * קורס משפחות (מבנה תוכנית הלימודים, מיומנויות ורישום)
+  * מרכז ידע ותרומות (מאגר חומרים ואפשרויות סיוע)
+* **🔄 החלפת סגנונות עיצוב (Style Presets):** בורר ערכות נושא המאפשר לראות את האתר בצבעי המותג הרשמיים או בערכות נושא משלימות (ים שלווה, אפרסק רך, יער שקט).
+
+---
+
+## 🛠️ טכנולוגיות (Tech Stack)
+
+* **Framework:** [React 19](https://react.dev/)
+* **Build Tool:** [Vite](https://vite.dev/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Icons:** [Lucide React](https://lucide.dev/)
+* **Animations:** [Motion](https://motion.dev/)
+
+---
+
+## 🚀 הרצה מקומית (Local Development)
+
+כדי להריץ את הפרויקט במחשב המקומי שלך:
+
+### 1. דרישות קדם
+ודא שמותקן אצלך [Node.js](https://nodejs.org/) (גרסה 18 ומעלה מומלצת).
+
+### 2. התקנת תלויות
+שבט את הפרויקט או חלץ את ה-ZIP שקיבלת, והרצה את הפקודה הבאה בתיקיית השורש:
+```bash
+npm install
+```
+
+### 3. הרצה במצב פיתוח
+הרצה את השרת המקומי:
+```bash
+npm run dev
+```
+לאחר מכן פתח את הדפדפן בכתובת: `http://localhost:3000`
+
+### 4. בנייה לייצור (Build for Production)
+ליצירת קבצי סטטיים מותאמים לייצור בתיקיית `dist`:
+```bash
+npm run build
+```
+
+---
+
+## 📈 מבנה הפרויקט (Project Structure)
+
+* `src/App.tsx` - רכיב הניהול הראשי והפריסה (Sidebar & Header)
+* `src/components/WireframeRenderer.tsx` - מנוע רינדור ה-Wireframe האינטראקטיבי עם תמיכה ב-RTL
+* `src/components/DetailsPanel.tsx` - פאנל הדגשים המקצועיים, הנחיות ה-UX והטקסטים
+* `src/components/FeedbackSystem.tsx` - מערכת רישום ההערות וייצוא המשוב
+* `src/components/ThemeSelector.tsx` - מנגנון בחירת ערכת הנושא
+* `src/types.ts` - הגדרת הטיפוסים ומבנה הנתונים של ה-Wireframes והעמודים
+
+---
+
+**נבנה ברגישות ובאמפתיה עבור עמותת NEABPD Israel ❤️**

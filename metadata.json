@@ -1,0 +1,8 @@
+{
+  "name": "NEABPD Israel Wireframes",
+  "description": "כלי אינטראקטיבי לחקירה והצגה של ה-Wireframes והתכנון המבני של אתר NEABPD Israel - עמותה לתמיכה בבני משפחה של מתמודדים עם הפרעת אישיות גבולית ואי-ויסות רגשי חמור.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
